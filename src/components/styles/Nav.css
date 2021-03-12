@@ -1,0 +1,98 @@
+.navbar {
+  width: 100vw;
+  z-index: 999;
+  background: #fdfbec;
+  transition: box-shadow .25s;
+  padding: calc(.25vw + .25rem) calc(2.5vw + 2.5rem);
+}
+
+.navbar-brand img {
+  width: calc(8vw + 8rem);
+}
+
+.navbar-nav .nav-link {
+  padding: 0 !important;
+  color: #641924 !important;
+  font-weight: 400;
+  font-size: calc(.5vw + .5rem);
+  margin: 0 calc(.5vw + .5rem);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold !important;
+}
+
+.burger {
+  display: none;
+}
+
+/* tablet mode starts at 992px */
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    clip-path: ellipse(0px 0px at 95% 5%);
+    background: #F4897B;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 2;
+    transition: clip-path 1s ease-in-out;
+  }
+  .navbar-nav .nav-link {
+    font-size: calc(.75vw + .75rem);
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 0 !important;
+  }
+  .navbar-nav.active {
+    clip-path: ellipse(150% 150% at 100% 0%);
+  }
+  .navbar-brand {
+    z-index: 999;
+  }
+  .burger {
+    z-index: 999;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    display: block;
+  }
+  .burger:focus {
+    border: none;
+    outline: none;
+  }
+  .burger div {
+    background: #641924;
+    border-radius: 4px;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 4px;
+    transition: .5s ease-in-out;
+  }
+  .navbar-nav.active ~ .burger div:first-child {
+    transform: rotateZ(45deg) translateY(200%);
+  }
+  .navbar-nav.active ~ .burger div:nth-child(2) {
+    opacity: 0;
+  }
+  .navbar-nav.active ~ .burger div:last-child {
+    transform: rotateZ(-45deg) translateY(-300%) translateX(15%);
+  }
+}
+
+
+/* mobile mode starts at 767px */
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: calc(.5vw + .5rem);
+  }
+  .navbar-brand img {
+    width: calc(9vw + 9rem);
+  }
+}

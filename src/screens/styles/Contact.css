@@ -1,0 +1,62 @@
+#contact .container-fluid {
+  background: #f5f3e4;
+  padding: 4vw;
+  margin-top: calc(5vh + 5rem);
+  margin-bottom: calc(5vh + 5rem);
+  color: #641924;
+}
+
+#contact form {
+  padding: 3vw;
+  width: 100%;
+  background: #F4897B;
+  border-radius: 7px;
+  border-left: 10px solid #641924;
+}
+
+#contact form h1 {
+  font-size: calc(1vw + 1rem);
+  font-weight: bold;
+  margin-bottom: calc(1vw + 1rem);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact form .btn {
+  background: #641924;
+  border-radius: 7px;
+  color: #FDFBEC;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(.5vw + .5rem);
+  padding: calc(.25vw + .25rem) calc(1vw + 1rem);
+}
+
+#contact form .form-group {
+  margin-top: calc(1vw + 1rem);
+}
+
+#contact form label {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(.5vw + .5rem);
+}
+
+#contact form input, textarea {
+  width: 100%;
+  background: none;
+  border: 3px solid #641924;
+  border-radius: 5px;
+  resize: vertical;
+  padding: .5vw;
+}
+
+@media screen and (max-width: 767px) {
+  #contact form {
+    padding: calc(1vw + 1rem);
+    border-left: 0;
+  }
+
+  .map {
+    margin-top: calc(1vw + 1rem);
+  }
+}

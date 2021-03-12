@@ -1,0 +1,62 @@
+#admissions .landing p {
+  font-size: calc(.5vw + .5rem);
+}
+
+.admissions-info {
+  background: #F5F3E4;
+  color: #641924 !important;
+  padding: 5vw;
+  margin: calc(3vw + 3rem) 0;
+}
+
+.admissions-info img {
+  width: 100%;
+  padding: 5vw;
+}
+
+.admissions-text {
+  background: rgba(244, 137, 123, 0.8);
+  border-radius: 1vw;
+  padding: 0 !important;
+}
+
+.admissions-text h1 {
+  padding: calc(1vw + 1rem);
+  font-size: calc(1vw + 1rem);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-bottom: 3px solid #F5F3E4;
+}
+
+.admissions-text div {
+  padding: calc(1.5vw + 1.5rem);
+}
+
+.admissions-text p {
+  font-size: calc(.5vw + .5rem);
+  line-height: calc(1.25vw + 1.25rem);
+}
+
+.admissions-text h3 {
+  line-height: calc(1vw + 1rem);
+  font-size: calc(.5vw + .5rem);
+  font-weight: bold;
+  margin-top: calc(1vw + 1rem);
+}
+
+@media screen and (max-width: 1200px) {
+  .admissions-info img {
+    padding: 1vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .admissions-info {
+    padding: 10vw;
+  }
+
+  .admissions-info img {
+    padding: 10vw;
+  }
+}

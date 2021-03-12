@@ -1,0 +1,24 @@
+#curriculum .landing .text p {
+  font-size: calc(.5vw + .5rem);
+  line-height: calc(1.25vw + 1.25rem);
+}
+
+.curriculum-cards {
+  padding: calc(1vw + 1rem) 0;
+  margin: calc(4vw + 4rem) 0;
+  background: #F5F3E4;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 767px) {
+  #curriculum .landing img {
+    padding: 0 calc(2vw + 2rem);
+  }
+
+  .curriculum-cards {
+    align-items: baseline !important;
+  }
+}

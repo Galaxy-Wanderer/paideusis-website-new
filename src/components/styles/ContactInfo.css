@@ -1,0 +1,79 @@
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+.contact-details h3 {
+  font-size: 1.25vw;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(100, 25, 36, 0.8);
+  margin-left: 1.5vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.contact-details p {
+  color: #FDFBEC;
+  font-size: 1vw;
+  border-radius: 100px;
+  padding: 1vw 1.5vw;
+  background: linear-gradient(120deg, rgba(189,36,15,1) 0%, rgba(244,137,123,1) 100%);
+}
+
+.contact-details p span:first-child {
+  margin-right: 1vw;
+}
+
+.contact-details:nth-child(2) p, .contact-details:last-child p {
+  background: linear-gradient(120deg, rgba(161,13,31,1) 0%, rgba(192,53,70,1) 100%);
+}
+
+.contact-details:nth-child(3) p {
+  background: linear-gradient(120deg, rgba(67,4,13,1) 0%, rgba(124,52,63,1) 100%);
+}
+
+@media screen and (max-width: 992px) {
+  .contact-details h3 {
+    font-size: calc(.5vw + .5rem);
+  }
+
+  .contact-details p {
+    font-size: calc(.4vw + .4rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .contact-info {
+      flex-wrap: wrap;
+    }
+
+    .contact-details {
+      width: fit-content;
+      margin-right: calc(1vw + 1rem);
+    }
+
+    .contact-details h3 {
+      font-size: calc(.75vw + .75rem);
+      margin-left: calc(.5vw + .5rem);
+    }
+
+    .contact-details p {
+      font-size: calc(.5vw + .5rem);
+      padding: calc(.5vw + .5rem);
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-details {
+    margin-right: 0 !important;
+  }
+
+  .contact-details h3 {
+    margin-bottom: calc(.5vw + .5rem);
+    font-size: calc(.5vw + .5rem);
+  }
+  .contact-details p {
+    font-size: calc(.4vw + .4rem);
+  }
+}

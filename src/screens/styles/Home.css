@@ -1,0 +1,234 @@
+/* landing page */
+.landing {
+  margin-top: calc(5vh + 5rem);
+  padding: 0 calc(3vw + 3rem);
+}
+
+hr {
+  opacity: 0;
+}
+
+.landing .btn {
+  background: #C03546;
+  color: white;
+}
+
+.buttons {
+  width: fit-content;
+  margin: auto;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  margin: 0 calc(.25vw + .25rem);
+  color: #C03546 !important;
+  outline: none;
+  font-size: calc(.5vw + .5rem);
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider i {
+  cursor: pointer;
+  color: #C03546;
+  font-size: calc(1vw + 1rem);
+  margin: calc(.25vw  + .25rem);
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slider-container .images {
+  position: relative;
+  width: 100%;
+}
+
+.slider-container .images img {
+  transition: opacity .5s ease;
+  width: 100%;
+}
+
+.slider-container .images img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.slider-container .images img:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.text h1 {
+  font-size: calc(1vw + 1rem);
+  line-height: calc(1.75vw + 1.75rem);
+  width: 100%;
+  color: #641924;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text p {
+  width: 100%;
+  color: #641924;
+  font-size: calc(.75vw + .75rem);
+  line-height: calc(1.5vw + 1.5rem);
+  margin: calc(.75vw + .75rem) 0;
+}
+
+.text button.btn {
+  font-size: calc(.5vw + .5rem);
+  padding: calc(.25vw + .25rem) calc(.75vw + .75rem);
+}
+
+/* values section */
+.values {
+  justify-content: space-around;
+  margin-top: calc(2vw + 2rem);
+}
+
+.values h2 {
+  font-size: calc(.75vw + .75rem);
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: calc(1vw + 1rem);
+  margin-left: calc(.75vw + .75rem);
+}
+
+.values div {
+  width: calc(9vw + 9rem);
+  height: calc(8vw + 8rem);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.value1 {
+  background: url(../../images/bible.jpg);
+}
+
+.value2 {
+  background: url(../../images/child.jpg);
+}
+
+.value3 {
+  background: url(../../images/children.jpg);
+}
+
+.value4 {
+  background: url(../../images/materials.jpg);
+}
+
+/* learning section */
+.learning {
+  margin-top: calc(5vw + 5rem);
+  padding: 0 calc(3vw + 3rem);
+}
+
+/* partners section */
+.partners {
+  margin: calc(5vw + 5rem) 0;
+  padding: 0 calc(5vw + 5rem);
+}
+
+.partners h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #641924;
+  font-size: calc(1vw + 1rem);
+  margin-left: 2vw;
+  margin-bottom: calc(1vw + 1rem);
+}
+
+.partners .container-fluid {
+  background: #7C343F;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+
+.partners img {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1300px) {
+  .values div {
+    width: calc(8vw + 8rem);
+    height: calc(8vw + 8rem);
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .text h1 {
+    font-size: calc(1vw + 1rem);
+  }
+  .text p {
+    font-size: calc(.5vw + .5rem);
+    line-height: calc(1vw + 1rem);
+  }
+  .values div {
+    width: calc(7vw + 7rem);
+    height: calc(6vw + 6rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing.container-fluid {
+    padding: calc(.75vw + .75rem) !important;
+  }
+  .learning.container-fluid {
+    padding: calc(1.5vw + 1.5rem);
+  }
+  .text {
+    text-align: center;
+    margin-bottom: calc(2vw + 2rem);
+  }
+  .text p {
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.5vw + 1.5rem);
+    width: 95%;
+    margin: calc(1vw + 1rem) auto;
+  }
+  .text button.btn {
+    font-size: calc(.75vw + .75rem);
+  }
+  .slider .buttons {
+    display: none;
+  }
+  .values {
+    flex-wrap: wrap;
+  }
+  .values div {
+    width: 40vw;
+    height: 40vw;
+  }
+  .values h2 {
+    font-size: 3vw;
+  }
+  .value2 {
+    margin-top: 15vw;
+  }
+  .value4 {
+    margin-top: 10vw;
+  }
+  .partners {
+    padding: 0 2vw;
+  }
+  .partners img {
+    width: 100%;
+  }
+}

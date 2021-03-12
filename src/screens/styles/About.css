@@ -1,0 +1,104 @@
+#about .landing p {
+  font-size: calc(.5vw + .5rem);
+  line-height: calc(1.25vw + 1.25rem);
+}
+
+#about .landing .col-lg-4 img {
+  width: 100%;
+}
+
+.advantages {
+  background: #f5f3e4;
+  padding: calc(1vw + 1rem) 0;
+  margin: calc(5vw + 5rem) 0;
+}
+
+.advantages h1 {
+  font-size: calc(1vw + 1rem);
+  margin-bottom: calc(1.5vw + 1.5rem);
+  font-family: 'Montserrat', sans-serif;
+  color: #641924;
+}
+
+.advantages img {
+  width: 75%;
+  margin: auto;
+}
+
+.advantages p {
+  color: #641924;
+  font-weight: bold;
+  font-size: calc(.5vw + .5rem);
+  line-height: calc(1vw + 1rem);
+  margin-bottom: calc(1vw + 1rem);
+}
+
+.advantages i {
+  font-size: calc(1vw + 1rem);
+  margin-right: calc(.5vw + .5rem);
+}
+
+.centres {
+  margin-bottom: calc(5vw + 5rem);
+  padding: 0 calc(2vw + 2rem);
+}
+
+.centres img {
+  padding: calc(1vw + 1rem);
+}
+
+.centres h1 {
+  font-size: calc(1vw + 1rem);
+  margin-bottom: calc(2vw + 2rem);
+  font-family: 'Montserrat', sans-serif;
+  color: #641924;
+  font-weight: bold;
+}
+
+.centre h2 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #641924;
+  font-size: calc(.5vw + .5rem);
+}
+
+.centre p {
+  font-size: calc(.5vw + .5rem);
+  color: #641924;
+}
+
+@media screen and (max-width: 992px) {
+  #about .landing .col-lg-4 img {
+    width: 100%;
+    padding: 10vw;
+  }
+  
+  .advantages .col-lg-3 {
+    margin: calc(2vw + 2rem) 0 !important;
+  }
+
+  .advantages p {
+    justify-content: center;
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .advantages .col-lg-2 img {
+    width: 100%;
+    padding: 0 25vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .centres {
+    text-align: center;
+  }
+
+  .centre {
+    margin: calc(1vw + 1rem) 0;
+  }
+
+  .centre p {
+    font-size: calc(.75vw + .75rem);
+  }
+}
