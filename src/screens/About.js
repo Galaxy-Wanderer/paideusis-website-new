@@ -43,11 +43,11 @@ const About = ({ location }) => {
         <div className="row align-items-center">
           <div className="col-lg-1 col-md-12"></div>
           <div className="col-lg-3 col-md-12">
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Educație bazată pe principii și valori creștine</span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Curriculum testat de-a lungul a peste 40 de ani în peste 100 de țări</span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Fără stresul temelor </span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Metode de instruire orientate pe nivel de studiu, nu pe clasă </span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Educatori atestați, cu experiență în formarea educațională.</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Educație bazată pe principii și valori creștine</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Curriculum testat de-a lungul a peste 40 de ani în peste 100 de țări</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Fără stresul temelor </span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Metode de instruire orientate pe nivel de studiu, nu pe clasă </span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Educatori atestați, cu experiență în formarea educațională.</span></p>
           </div>
           <div className="col-lg-1 col-md-12"></div>
           <div className="col-lg-2 col-md-12">
@@ -55,11 +55,11 @@ const About = ({ location }) => {
           </div>
           <div className="col-lg-1 col-md-12"></div>
           <div className="col-lg-3 col-md-12">
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Formarea caracterului</span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Dobândirea competențelor de comunicare în două limbi (engleză-română).</span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Pregătire pentru susținerea examenelor internaționale SAT și GED</span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Socializare pozitivă </span></p>
-            <p className='d-flex align-items-center'><i className='far fa-check-circle'></i> <span>Mediu protejat</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Formarea caracterului</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Dobândirea competențelor de comunicare în două limbi (engleză-română).</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Pregătire pentru susținerea examenelor internaționale SAT și GED</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Socializare pozitivă </span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Mediu protejat</span></p>
           </div>
           <div className="col-lg-1 col-md-12"></div>
         </div>
