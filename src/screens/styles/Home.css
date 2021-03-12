@@ -138,7 +138,7 @@ hr {
 /* partners section */
 .partners {
   margin: calc(5vw + 5rem) 0;
-  padding: 0 calc(5vw + 5rem);
+  padding: 0 calc(3vw + 3rem);
 }
 
 .partners h1 {
@@ -153,11 +153,11 @@ hr {
 .partners .container-fluid {
   background: #7C343F;
   border-radius: 2vw;
-  padding: 2vw;
+  padding: 2vw 5vw;
 }
 
 .partners img {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
 }
 

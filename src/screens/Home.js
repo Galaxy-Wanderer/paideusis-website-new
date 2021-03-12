@@ -84,17 +84,19 @@ const Home = () => {
         <h1>Partenerii noștri</h1>
         <div className="container-fluid">
           <div className="row align-items-center">
+            <div className="col-1"></div>
             <a href='https://www.aceministries.com/' target='_blank' rel="noreferrer" className="col-2">
               <img src={AceLogo} alt="ace logo" />
             </a>
             <div className="col-1"></div>
-            <a href='https://www.christian.education/' target='_blank' rel="noreferrer" className="col-4">
+            <a href='https://www.christian.education/' target='_blank' rel="noreferrer" className="col-3">
               <img src={CeeLogo} alt="cee-logo" />
             </a>
             <div className="col-1"></div>
-            <a href='https://www.kingofkingsschool.org.uk/' target='_blank' rel="noreferrer" className="col-4">
+            <a href='https://www.kingofkingsschool.org.uk/' target='_blank' rel="noreferrer" className="col-2">
               <img src={KingOfKingsLogo} alt='king of kings logo' />
             </a>
+            <div className="col-1"></div>
           </div>
         </div>
       </section>

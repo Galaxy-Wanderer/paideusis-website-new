@@ -36,17 +36,17 @@ const Contact = () => {
       <div className="container-fluid">
         <div className="row align-items-center">
           <form className="col-md-6 col-sm-12" onSubmit={e => sendEmail(e)}>
-            <h1>Trimite-ne un mesaj!</h1>
+            <h1>Trimite un mesaj</h1>
             <div className="form-group">
               <label htmlFor="name">Nume, Prenume:</label>
               <input type="text" name='name' id='name' required />
             </div>
             <div className="form-group">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Email:</label>
               <input type="email" name='email' id='email' required />
             </div>
             <div className="form-group">
-              <label htmlFor="message">Mesaj</label>
+              <label htmlFor="message">Mesaj:</label>
               <textarea type="text" name='message' id='message' cols='50' rows='5' required></textarea>
             </div>
             <button type="submit" className="btn">Trimite</button>

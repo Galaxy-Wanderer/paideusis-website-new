@@ -25,8 +25,8 @@ const About = ({ location }) => {
           <div className="text col-lg-7 col-sm-12">
             <h1>Despre noi</h1>
             <p>Centrul Educațional Paideusis funcționează de peste 25 de ani în Iași. Este înființat de către Fundația de caritate Paideusis ( "Paideusis" este un cuvânt din  limba greacă care înseamnă locul creșterii și al învățării copilului. )<br />
-              Din anul 2020, Centrul Educațional Paideusis  oferă servicii educaționale elevilor înscriși la Școala King of Kings din Anglia, prin programul de învățare la distanță.<br />
-              Programa școlară ACE (Accelerated Christian Education) folosită de către Centrul Paideusis este furnizată de către Christian Education Europe (CEE). Această  companie educațională monitorizează implementarea programei școlare ACE în Europa . ACE este concepută pentru a fi parcursă în mod individual.<br />
+              Din anul 2020, Centrul Educațional Paideusis  oferă servicii educaționale elevilor înscriși la Școala King of Kings din Anglia, în programul de învățare la distanță.<br />
+              Programa școlară A.C.E. (Accelerated Christian Education) folosită de către Centrul Paideusis este furnizată de către Christian Education Europe (C.E.E.). Această  companie educațională monitorizează implementarea programei școlare A.C.E. în Europa . A.C.E. este concepută pentru a fi parcursă în mod individual.<br />
               La Centrul Educational Paideusis, elevii beneficiază de ajutorul necesar pentru realizarea obiectivelor școlare, asistați fiind de personal calificat. De asemenea, ei participă la diferite activități colective, într-o atmosferă plăcută și antrenantă, îmbinând noțiunile teoretice cu practica și creativitatea. În acest mod, elevilor li se creează condiții să exceleze și să se dezvolte armonios.<br />
 
             </p>
@@ -47,7 +47,7 @@ const About = ({ location }) => {
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Curriculum testat de-a lungul a peste 40 de ani în peste 100 de țări</span></p>
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Fără stresul temelor </span></p>
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Metode de instruire orientate pe nivel de studiu, nu pe clasă </span></p>
-            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Educatori atestați, cu experiență în formarea educațională.</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Educatori atestați, cu experiență în formarea educațională</span></p>
           </div>
           <div className="col-lg-1 col-md-12"></div>
           <div className="col-lg-2 col-md-12">
@@ -56,7 +56,7 @@ const About = ({ location }) => {
           <div className="col-lg-1 col-md-12"></div>
           <div className="col-lg-3 col-md-12">
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Formarea caracterului</span></p>
-            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Dobândirea competențelor de comunicare în două limbi (engleză-română).</span></p>
+            <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Dobândirea competențelor de comunicare în două limbi (engleză-română)</span></p>
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Pregătire pentru susținerea examenelor internaționale SAT și GED</span></p>
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Socializare pozitivă </span></p>
             <p className='d-flex' style={{ alignItems: 'flex-start' }}><i className='far fa-check-circle'></i> <span>Mediu protejat</span></p>
