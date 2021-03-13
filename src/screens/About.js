@@ -26,7 +26,7 @@ const About = ({ location }) => {
             <h1>Despre noi</h1>
             <p>Centrul Educațional Paideusis funcționează de peste 25 de ani în Iași. Este înființat de către Fundația de caritate Paideusis ( "Paideusis" este un cuvânt din  limba greacă care înseamnă locul creșterii și al învățării copilului. )<br />
               Din anul 2020, Centrul Educațional Paideusis  oferă servicii educaționale elevilor înscriși la Școala King of Kings din Anglia, în programul de învățare la distanță.<br />
-              Programa școlară A.C.E. (Accelerated Christian Education) folosită de către Centrul Paideusis este furnizată de către Christian Education Europe (C.E.E.). Această  companie educațională monitorizează implementarea programei școlare A.C.E. în Europa . A.C.E. este concepută pentru a fi parcursă în mod individual.<br />
+              Programa școlară A.C.E. (Accelerated Christian Education) folosită de către Centrul Paideusis este furnizată de către Christian Education Europe (C.E.E.). Această  companie educațională monitorizează implementarea programei școlare A.C.E. în Europa. A.C.E. este concepută pentru a fi parcursă în mod individual.<br />
               La Centrul Educational Paideusis, elevii beneficiază de ajutorul necesar pentru realizarea obiectivelor școlare, asistați fiind de personal calificat. De asemenea, ei participă la diferite activități colective, într-o atmosferă plăcută și antrenantă, îmbinând noțiunile teoretice cu practica și creativitatea. În acest mod, elevilor li se creează condiții să exceleze și să se dezvolte armonios.<br />
 
             </p>

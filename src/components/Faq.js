@@ -57,7 +57,7 @@ const Faq = () => {
                     setQuestions({ ...questions, answer3: !questions.answer3 });
                   }
                 }}>Absolvenții de liceu trebuie să susțină examenul de bacalaureat după terminarea<br />liceului? <img src={questions.answer3 ? Minus : Plus} alt="plus" className='ml-5' /></button>
-                <p className={`answer ${isMobile && questions.answer3 ? 'answer-active' : isMobile && !questions.answer3 ? '' : 'answer-active'}`}>Absolvenții nu vor susține examenul de bacalaureat românesc. În schimb, îi pregătim pentru examenul SAT, care este bacalaureatul recunoscut la nivel internațional și care oferă posibilitatea continuării studiilor la orice instituție de învățământ superior.</p>
+                <p className={`answer ${isMobile && questions.answer3 ? 'answer-active' : isMobile && !questions.answer3 ? '' : 'answer-active'}`}>Absolvenții nu vor susține examenul de bacalaureat românesc. În schimb, îi pregătim pentru examenul SAT, care este bacalaureatul recunoscut la nivel internațional și care oferă posibilitatea continuării studiilor la orice instituție de învățământ superior din țară sau străinătate.</p>
               </div>
               <div className="question col-md-6 col-sm-12">
                 <button className='d-flex align-items-center justify-content-between' onClick={() => {
