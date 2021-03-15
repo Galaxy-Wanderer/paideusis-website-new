@@ -1,6 +1,7 @@
 #about .landing p {
   font-size: calc(.5vw + .5rem);
   line-height: calc(1.25vw + 1.25rem);
+  text-align: left;
 }
 
 #about .landing .col-lg-4 img {
@@ -74,13 +75,13 @@
   }
   
   .advantages .col-lg-3 {
-    margin: calc(2vw + 2rem) 0 !important;
+    margin: 0 !important;
   }
 
   .advantages p {
-    justify-content: center;
-    width: 100%;
-    text-align: center !important;
+    margin: 1rem auto !important;
+    width: 80%;
+    text-align: left;
   }
 
   .advantages .col-lg-2 img {

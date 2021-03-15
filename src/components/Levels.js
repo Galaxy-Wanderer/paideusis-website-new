@@ -27,7 +27,7 @@ const Levels = () => {
             ) : level === 2 ? (
               <p>Acest nivel este fundamental pentru pregătirea copiilor în vederea instruirii pe nivele de învățare. Lecțiile prevăzute pentru învățarea limbii engleze cuprind exerciții de pronunție, scriere, citire și conversație.</p>
             ) : level === 3 ? (
-              <p>În acestă perioadă, micii școlari se formează într-un mediu care le stimulează creativitatea și dorința de cunoaștere. Materia de studiu este structurată în patru obiecte principale : engleză, matematică,  studii sociale (istorie, geografie) și științe.</p>
+              <p>În această perioadă, micii școlari se formează într-un mediu care le stimulează creativitatea și dorința de cunoaștere. Materia de studiu este structurată în patru obiecte principale : engleză, matematică,  studii sociale (istorie, geografie) și științe.</p>
             ) : level === 4 ? (
               <p>
                 De-a lungul acestei perioade, elevii își consolidează abilitățile de studiu individual prin stabilirea obiectivelor zilnice și strategia realizării lor. Metodele și manualele folosite sunt special concepute pentru ca ei să avanseze în cunoaștere, caracter și competențe.</p>

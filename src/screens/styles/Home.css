@@ -159,6 +159,7 @@ hr {
 .partners img {
   width: 100%;
   margin: 0 auto;
+  padding: 1vw;
 }
 
 
@@ -229,6 +230,7 @@ hr {
     padding: 0 2vw;
   }
   .partners img {
+    padding: 0;
     width: 100%;
   }
 }

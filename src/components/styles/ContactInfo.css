@@ -71,9 +71,9 @@
 
   .contact-details h3 {
     margin-bottom: calc(.5vw + .5rem);
-    font-size: calc(.5vw + .5rem);
+    font-size: 2.5vw;
   }
   .contact-details p {
-    font-size: calc(.4vw + .4rem);
+    font-size: 2.5vw;
   }
 }

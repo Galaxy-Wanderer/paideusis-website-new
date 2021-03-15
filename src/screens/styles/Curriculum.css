@@ -1,6 +1,7 @@
 #curriculum .landing .text p {
   font-size: calc(.5vw + .5rem);
   line-height: calc(1.25vw + 1.25rem);
+  text-align: left;
 }
 
 .curriculum-cards {

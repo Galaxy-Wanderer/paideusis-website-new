@@ -56,7 +56,7 @@ const Faq = () => {
                   if(isMobile) {
                     setQuestions({ ...questions, answer3: !questions.answer3 });
                   }
-                }}>Absolvenții de liceu trebuie să susțină examenul de bacalaureat după terminarea<br />liceului? <img src={questions.answer3 ? Minus : Plus} alt="plus" className='ml-5' /></button>
+                }}>Absolvenții de liceu trebuie să susțină examenul de<br />bacalaureat după terminarea liceului? <img src={questions.answer3 ? Minus : Plus} alt="plus" className='ml-5' /></button>
                 <p className={`answer ${isMobile && questions.answer3 ? 'answer-active' : isMobile && !questions.answer3 ? '' : 'answer-active'}`}>Absolvenții nu vor susține examenul de bacalaureat românesc. În schimb, îi pregătim pentru examenul SAT, care este bacalaureatul recunoscut la nivel internațional și care oferă posibilitatea continuării studiilor la orice instituție de învățământ superior din țară sau străinătate.</p>
               </div>
               <div className="question col-md-6 col-sm-12">
@@ -64,7 +64,7 @@ const Faq = () => {
                   if(isMobile) {
                     setQuestions({ ...questions, answer4: !questions.answer4 });
                   }
-                }}>Elevii care parcurg acest program educațional se pot transfera în sistemul educațional<br />românesc? <img src={questions.answer4 ? Minus : Plus} alt="plus" className='ml-5' /></button>
+                }}>Elevii care parcurg acest program educațional se pot transfera<br />în sistemul educațional românesc? <img src={questions.answer4 ? Minus : Plus} alt="plus" className='ml-5' /></button>
                 <p className={`answer ${isMobile && questions.answer4 ? 'answer-active' : isMobile && !questions.answer4 ? '' : 'answer-active'}`}>Cu siguranță. Elevii vor fi evaluați de către școala unde urmează să fie înscriși, apoi vor fi repartizați în clasa corespunzătoare.</p>
               </div>
             </div>
