@@ -88,7 +88,7 @@ const Home = () => {
               <img src={AceLogo} alt="ace logo" />
             </a>
             <div className="col-1"></div>
-            <a href='https://www.christian.education/' target='_blank' rel="noreferrer" className="col-5">
+            <a href='https://www.christian.education/' target='_blank' rel="noreferrer" className="col-4">
               <img src={CeeLogo} alt="cee-logo" />
             </a>
             <div className="col-1"></div>

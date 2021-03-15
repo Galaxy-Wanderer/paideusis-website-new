@@ -7,6 +7,8 @@ const Map = () => {
   const [viewport, setViewport] = useState({
     latitude: 47.13590295,
     longitude: 27.58288553,
+    width: "100%",
+    height: '50vh',
     zoom: 15,
   })
 
@@ -14,11 +16,9 @@ const Map = () => {
     <div style={{ border: "2px solid #ccc", width: '100%', height: '50vh' }}>
       <ReactMapGL
         {...viewport}
-        width='100%'
-        height='50vh'
-        onViewportChange={(viewport) => setViewport(viewport)}
         mapStyle='mapbox://styles/denisdeveloper/ckf9l24dv6gqg19ql9dnhbsby'
         mapboxApiAccessToken={process.env.REACT_APP_MAP_KEY}
+        onViewportChange={(viewport) => setViewport(viewport)}
       >
         <Marker
           latitude={47.13580295}

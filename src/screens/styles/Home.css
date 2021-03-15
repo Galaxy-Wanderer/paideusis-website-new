@@ -137,7 +137,7 @@ hr {
 
 /* partners section */
 .partners {
-  margin: calc(5vw + 5rem) 0;
+  margin: calc(3vw + 3rem) 0;
   padding: 0 calc(3vw + 3rem);
 }
 
@@ -193,6 +193,12 @@ hr {
   }
   .learning.container-fluid {
     padding: calc(1.5vw + 1.5rem);
+  }
+  .learning .text {
+    text-align: left !important;
+  }
+  .learning .text p {
+    margin: calc(1vw + 1rem) 0 !important;
   }
   .text {
     text-align: center;

@@ -53,11 +53,30 @@
 }
 
 @media screen and (max-width: 767px) {
+  #admissions .landing p {
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.75vw + 1.75rem);
+  }
+
   .admissions-info {
     padding: 10vw;
   }
 
   .admissions-info img {
     padding: 10vw;
+  }
+
+  .admissions-text div {
+    padding: calc(1vw + 1rem);
+  }
+
+  .admissions-text h3 {
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.75vw + 1.75rem);
+  }
+
+  .admissions-text p {
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.75vw + 1.75rem);
   }
 }

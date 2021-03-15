@@ -75,10 +75,15 @@
   }
   
   .question .answer-active {
-    max-height: 5rem !important;
+    max-height: 15rem !important;
   }
 
   .faq img {
     display: none;
+  }
+
+  .question .answer {
+    font-size: calc(.75vw + .75rem) !important;
+    line-height: calc(1.75vw + 1.75rem) !important;
   }
 }

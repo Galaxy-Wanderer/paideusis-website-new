@@ -91,6 +91,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  #about .landing p {
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.75vw + 1.75rem);
+  }
+
   .centres {
     text-align: center;
   }

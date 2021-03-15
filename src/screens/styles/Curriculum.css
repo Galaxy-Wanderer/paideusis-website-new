@@ -19,7 +19,17 @@
     padding: 0 calc(2vw + 2rem);
   }
 
+  #curriculum .landing p {
+    font-size: calc(.75vw + .75rem) !important;
+    line-height: calc(1.75vw + 1.75rem) !important;
+  }
+
   .curriculum-cards {
     align-items: baseline !important;
+  }
+
+  .curriculum-cards p {
+    font-size: calc(.75vw + .75rem) !important;
+    line-height: calc(1.75vw + 1.75rem) !important;
   }
 }
