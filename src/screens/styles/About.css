@@ -73,17 +73,16 @@
     width: 100%;
     padding: 10vw;
   }
-  
   .advantages .col-lg-3 {
     margin: 0 !important;
   }
-
   .advantages p {
     margin: 1rem auto !important;
-    width: 80%;
+    width: 95%;
     text-align: left;
+    font-size: calc(.65vw + .65rem);
+    line-height: calc(1.3vw + 1.3rem);
   }
-
   .advantages .col-lg-2 img {
     width: 100%;
     padding: 0 25vw;
@@ -95,15 +94,12 @@
     font-size: calc(.75vw + .75rem);
     line-height: calc(1.75vw + 1.75rem);
   }
-
   .centres {
     text-align: center;
   }
-
   .centre {
     margin: calc(1vw + 1rem) 0;
   }
-
   .centre p {
     font-size: calc(.75vw + .75rem);
   }

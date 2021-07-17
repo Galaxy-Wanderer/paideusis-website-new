@@ -25,14 +25,14 @@ const Curriculum = () => {
         <div className="row align-items-center">
           <div className="text col-md-6 col-sm-12">
             <h1>Curriculum</h1>
-            <p>La Centrul Educațional Paideusis se implementează programul A.C.E. (Accelerated Christian Education) începând de la grădiniță până la liceu. Acest program este folosit la nivel mondial și oferă copiilor o educație bilingvă, bazată pe principiile biblice și formarea trăsăturilor pozitive de caracter. 
-Obiectele de bază sunt: matematica, engleza, studiile sociale și științele.  Curriculumul este prezentat sub forma unor manuale de lucru numite PACE-uri (Packets of Accelerated Christian Education). PACE-urile pe care le folosim sunt editate în limba engleză. <br />
-În viitorul apropiat, avem ca obiectiv extinderea curriculumului prin introducerea de PACE-uri referitoare la istoria și geografia României, limba și literatura română.
+            <p>La Centrul Educațional Paideusis se implementează programul A.C.E. (Accelerated Christian Education) începând de la grădiniță până la liceu. Acest program este folosit la nivel mondial și oferă copiilor o educație bilingvă, bazată pe principiile biblice și formarea trăsăturilor pozitive de caracter.
+              Obiectele de bază sunt: matematica, engleza, studiile sociale și științele.  Curriculumul este prezentat sub forma unor manuale de lucru numite PACE-uri (Packets of Accelerated Christian Education). PACE-urile pe care le folosim sunt editate în limba engleză. <br />
+              În viitorul apropiat, avem ca obiectiv extinderea curriculumului prin introducerea de PACE-uri referitoare la istoria și geografia României, limba și literatura română.
 
             </p>
           </div>
           <div className="col-md-6 col-sm-12">
-            <img src={Books} alt="books" className='w-100'/>
+            <img src={Books} alt="books" className='w-100' />
           </div>
         </div>
       </section>
@@ -63,17 +63,17 @@ Obiectele de bază sunt: matematica, engleza, studiile sociale și științele. 
           title='Vocabular și ortografie'
           text='Elevii învață să alcătuiască noi cuvinte cu ajutorul sufixelor și al prefixelor, îmbogățindu-și astfel vocabularul. De asemenea, își consolidează regulile de ortografie și de punctuație.'
         />
-        <Card 
+        <Card
           icon={Quotes}
           title='Compoziție literară'
           text='Folosirea corectă a limbii engleze presupune formarea abilităților de scriere și vorbire. De aceea, elevii învață să conceapă și să susțină un discurs, să analizeze un text, să alcătuiască un eseu.'
         />
-        <Card 
+        <Card
           icon={Bible}
           title='Bible'
           text='Curriculumul A.C.E. include citirea și studierea integrală a Bibliei, până la nivelul 8.'
         />
-        <Card 
+        <Card
           icon={Student}
           title='Opționale'
           text='În anii de liceu, în vederea obținerii creditelor necesare absolvirii, elevii trebuie să studieze și câteva materii opționale.'

@@ -21,7 +21,7 @@
   border-radius: 1vw 1vw 0 0;
 }
 
-.question button {
+.question p.d-flex {
   color: #641924;
   margin: calc(1vw + 1rem) 0;
   font-size: calc(.6vw + .6rem);
@@ -69,19 +69,21 @@
     background: none;
     padding: 0 5vw !important;
   }
-  .question button img {
+  .question p.d-flex {
+    cursor: pointer;
+    font-size: calc(.75vw + .75rem);
+    line-height: calc(1.5vw + 1.5rem);
+  }
+  .question p.d-flex img {
     width: calc(1vw + 1rem);
     display: block !important;
   }
-  
   .question .answer-active {
     max-height: 15rem !important;
   }
-
   .faq img {
     display: none;
   }
-
   .question .answer {
     font-size: calc(.75vw + .75rem) !important;
     line-height: calc(1.75vw + 1.75rem) !important;

@@ -7,8 +7,9 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
   background: #FDFBEC;
 }
 
@@ -26,6 +27,7 @@ body {
   background-color: #AD4857 !important;
   border-color: #AD4857 !important;
 }
+
 .custom-control-input:focus:not(:checked)~.custom-control-label::before {
   border-color: #AD4857 !important;
 }

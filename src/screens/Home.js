@@ -14,20 +14,20 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   let [slide, setSlide] = useState(1);
-  const { changePage } = useContext(GlobalContext)
+  const { changePage, checkLan } = useContext(GlobalContext)
 
   useEffect(() => {
     changePage('home');
-  },  [changePage]);
+  }, [changePage]);
 
   return (
     <>
       <section className="landing container-fluid">
         <div className="row align-items-center">
           <div className="text col-md-5">
-            <h1>O nouă metodă educațională<br />în Iași</h1>
-            <p>Centrul Educațional Paideusis aduce în atenția părinților beneficiile unei metode educaționale unice în Iași.</p>
-            <Link to='/despre-noi#advantages' className="btn">Beneficii</Link>
+            <h1>{checkLan('O nouă metodă educațională', 'A unique educational system')}<br />{checkLan('în Iași', 'In Iași')}</h1>
+            <p>{checkLan('Centrul Educațional Paideusis aduce în atenția părinților beneficiile unei metode educaționale unice în Iași.', 'The Paideusis International Center of Education brings to the attention of parents the benefits of a unique educational method in Iasi.')}</p>
+            <Link to='/despre-noi#advantages' className="btn">{checkLan('Beneficii', 'Benefits')}</Link>
           </div>
           <div className="slider col-md-7">
             <i style={{ opacity: slide === 1 ? 0.5 : 1 }} className="fas fa-chevron-left" onClick={() => slide > 1 && setSlide(slide -= 1)}></i>
@@ -50,16 +50,16 @@ const Home = () => {
 
       <section className='values d-flex'>
         <div className="value value1">
-          <h2>Educație creștină</h2>
+          <h2>{checkLan('Educație creștină', 'Christian Education')}</h2>
         </div>
         <div className="value value2">
-          <h2>Învățare<br />individuală</h2>
+          <h2>{checkLan('Învățare', 'Individualised')}<br />{checkLan('individuală', 'learning')}</h2>
         </div>
         <div className="value value3">
-          <h2>Formarea<br />caracterului</h2>
+          <h2>{checkLan('Formarea', 'Character')}<br />{checkLan('caracterului', 'Buliding')}</h2>
         </div>
         <div className="value value4">
-          <h2>Standard<br />academic<br />ridicat</h2>
+          <h2>{checkLan('Standard', 'High')}<br />{checkLan('academic', 'Academic')}<br />{checkLan('ridicat', 'standard')}</h2>
         </div>
       </section>
 
@@ -67,8 +67,8 @@ const Home = () => {
         <section className="learning container-fluid">
           <div className="row align-items-center">
             <div className="text col-md-7 col-sm-12">
-              <h1>Aici copilul<br />învață și se dezvoltă</h1>
-              <p>Ambientul și metodele de instruire sunt orientate pe elev. Se ține cont de unicitatea copilului care trebuie să parcurgă cu succes cinci nivele de instruire: grădiniță, ABC’s, L1-3, L4-7, L8-12.</p>
+              <h1>{checkLan('Aici copilul', 'Here the child')}<br />{checkLan('învață și se dezvoltă', 'learns and develops')}</h1>
+              <p>{checkLan('Ambientul și metodele de instruire sunt orientate pe elev. Se ține cont de unicitatea copilului care trebuie să parcurgă cu succes cinci nivele de instruire: grădiniță, ABC’s, L 1-3, L 4-7, L 8-12.', 'The learning environment and methods are student-oriented. It takes into consideration the uniqueness of the child who must successfully complete five levels: kindergarten, ABC’s, L 1-3, L 4-7, L 8-12.')}</p>
               <Link to='/curriculum' className="btn" style={{ background: '#bf3545', color: 'white' }}>Curriculum</Link>
             </div>
             <div className="col-md-1 col-sm-12"></div>

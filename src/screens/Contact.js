@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com'
 import Map from '../components/Map'
 
 const Contact = () => {
-  const { changePage } = useContext(GlobalContext);
+  const { changePage, checkLan } = useContext(GlobalContext);
   const [emailSent, setEmailSent] = useState(false);
 
   useEffect(() => {
@@ -36,9 +36,9 @@ const Contact = () => {
       <div className="container-fluid">
         <div className="row align-items-center">
           <form className="col-md-6 col-sm-12" onSubmit={e => sendEmail(e)}>
-            <h1>Trimite un mesaj</h1>
+            <h1>{checkLan('Trimite un mesaj', 'Send us a message!')}</h1>
             <div className="form-group">
-              <label htmlFor="name">Nume, Prenume:</label>
+              <label htmlFor="name">{checkLan('Nume, Prenume:', 'First name, second name:')}</label>
               <input type="text" name='name' id='name' required />
             </div>
             <div className="form-group">
@@ -46,10 +46,10 @@ const Contact = () => {
               <input type="email" name='email' id='email' required />
             </div>
             <div className="form-group">
-              <label htmlFor="message">Mesaj:</label>
+              <label htmlFor="message">{checkLan('Mesaj:', 'Message:')}</label>
               <textarea type="text" name='message' id='message' cols='50' rows='5' required></textarea>
             </div>
-            <button type="submit" className="btn">Trimite</button>
+            <button type="submit" className="btn">{checkLan('Trimite', 'Send')}</button>
             {emailSent && (
               <p style={{ fontSize: 'calc(.5vw + .5rem)', marginTop: 'calc(1vw + 1rem)' }}>Email sent</p>
             )}

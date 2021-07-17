@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './styles/ContactInfo.css'
+import { GlobalContext } from '../GlobalState'
 
 const ContactInfo = () => {
+  const { checkLan } = useContext(GlobalContext)
+
   return (
     <section className='contact-info'>
       <div className="contact-details">
-        <h3>Locație:</h3>
+        <h3>{checkLan('Locație', 'Location')}:</h3>
         <p>Str. Plantelor Nr. 17, IAȘI 700680</p>
       </div>
       <div className="contact-details">
         <h3>Program:</h3>
-        <p>Luni - Vineri: 8:00 - 13:00</p>
+        <p>{checkLan('Luni - Vineri', 'Monday - Friday')}: 8:00 - 13:00</p>
       </div>
       <div className="contact-details">
-        <h3>Telefon:</h3>
+        <h3>{checkLan('Telefon', 'Phone number')}:</h3>
         <p><span>0231 222 690</span>  <span>0742 457 009</span></p>
       </div>
       <div className="contact-details">

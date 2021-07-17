@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './styles/Footer.css'
 import { Link } from 'react-router-dom'
 import FaceBookIcon from '../icons/facebook-icon.svg'
+import { GlobalContext } from '../GlobalState'
 
 const Footer = () => {
+  const { checkLan } = useContext(GlobalContext)
+
   return (
     <footer className='container-fluid'>
       <div className="row align-items-center justify-content-between">
@@ -13,8 +16,8 @@ const Footer = () => {
           </Link>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-1 d-flex align-items-center justify-content-between">
-          <Link className='footer-link' to='/about'>Despre noi</Link>
-          <Link className='footer-link' to='/admissions'>Înscrieri</Link>
+          <Link className='footer-link' to='/about'>{checkLan('Despre noi', 'About us')}</Link>
+          <Link className='footer-link' to='/admissions'>{checkLan('Înscrieri', 'Admissions')}</Link>
           <Link className='footer-link' to='/contact'>Contact</Link>
         </div>
         <a href="https://www.facebook.com/FundatiaDeCaritatePaideusis/" className='col-lg-1 col-md-1 col-sm-1 col-2' target='_blank' rel="noreferrer">
